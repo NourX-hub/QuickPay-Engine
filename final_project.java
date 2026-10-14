@@ -239,7 +239,31 @@ public class final_project {
     // اكتبوا ميثودز الادمن هنا \\
     //6 block account
     //====================================================
+
+
     static void blockAccount(){
+
+        System.out.println("Enter a username or an email to block");
+
+        String accountToBeBloked = input.next();
+
+        int count = countMatches(choice_block);
+
+        if (count == 0)
+        {
+            System.out.println("Account blocked");
+            Active_Users[i] = false;
+            return;
+        }
+        
+        else{
+            System.out.println("This account is already blocked");
+            
+            return;
+        }
+        
+    }
+
         
     }
 
