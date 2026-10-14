@@ -237,9 +237,10 @@ public class final_project {
     //===============
     
     // اكتبوا ميثودز الادمن هنا \\
-    //6
+    //6 block account
+    //====================================================
     static void blockAccount(){
-
+        
     }
 
 
