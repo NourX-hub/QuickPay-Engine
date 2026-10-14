@@ -355,9 +355,11 @@ public class final_project {
     // User Methods
     //==============
 
-    // اكتبوا ميثودز اليوزر هنا \\
 
-    //6
+    //6 show favourite contacts
+    //=======================================
+
+    
     static void showFavourites(){
         System.out.println("Favourites: ");
         for(int i=0; i<5;i++){
@@ -365,7 +367,10 @@ public class final_project {
         }
     }
 
-    //7
+    //7 search recipient
+    //=============================
+
+
     static void searchRecipient(){
 
         System.out.println("Enter a phone number or email address to search for:");
@@ -386,7 +391,10 @@ public class final_project {
         }
     }
 
-    //8
+    //8 View profile details
+    //============================================
+
+
     static void viewProfile(){
         int x = User_Count;
 
@@ -399,7 +407,11 @@ public class final_project {
         System.out.println("Balance: "+ User_Balances[x]);
     }
 
-    //9
+    //9 Update profile information
+    //====================================================
+
+
+
     static void updateProfile() {
 
         int operationNum = input.nextInt();
@@ -438,7 +450,11 @@ public class final_project {
         }
         while(operationNum >4 || operationNum<1);
     }
-    //10
+    //10 Logout
+    //============================================================
+
+
+
     static void logout(){
         System.out.println("======================");
         System.out.println("    Logging out...");
